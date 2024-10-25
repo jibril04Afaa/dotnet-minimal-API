@@ -11,6 +11,9 @@ var todos = new List<Todo>();
 // get all todos
 app.MapGet("/todos", () => todos);
 
+// test
+app.MapGet("/", () => "Hello World");
+
 // CREATE new todo item, task of type Todo
 app.MapPost("/todos", (Todo task) => 
 {

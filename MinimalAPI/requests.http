@@ -1,2 +1,14 @@
-GET http://localhost:5233/todos
 
+###
+
+POST http://localhost:5233/todos
+content-type: application/json
+
+{
+    "id": 1,
+    "name": "Wash the car",
+    "dueDate": "2024-12-01",
+    "isCompleted": false
+}
+
+###
